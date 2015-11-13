@@ -1,0 +1,57 @@
+#content
+{
+    text-align:justify;
+    text-justify:inter-word;
+    margin:30px;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-left:250px; 
+	min-height:500px;
+}
+
+
+	     #sidenave ul
+        {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#sidenave a:link,#sidenave a:visited
+{
+margin:2px;
+display:block;
+color:#FFFFFF;
+background:#800000;
+text-align:center;
+padding:3px;
+text-decoration:none;
+text-transform:uppercase;
+border-radius:3px;
+width:200px;
+}
+#sidenave a:hover,#sidenave a:active
+{
+background-color:red;
+}
+
+table th
+{   
+   border:2px solid #800000;
+   padding:3px;
+}
+table td
+{   
+   border:2px solid #800000;
+   padding:3px;
+}
+table tr td h3{
+   font-size:1.6em;
+   
+}
+
+#title
+{
+   padding:10px;
+   border-bottom:1px solid black;
+}

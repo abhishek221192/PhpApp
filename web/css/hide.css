@@ -1,0 +1,44 @@
+#headerDiv, #contentDiv {
+float: left;
+width: 730px;
+}
+#titleText {
+float: left;
+font-size: 1.1em;
+margin: 5px;
+}
+#myHeader {
+font-size: 0.9em;
+margin: 5px;
+}
+#myHeader1 {
+font-size: 0.9em;
+margin: 5px;
+}
+#myHeader2 {
+font-size: 0.9em;
+margin: 5px;
+}
+#myHeader3 {
+font-size: 0.9em;
+margin: 5px;
+}
+
+
+#headerDiv {
+background-color: #FFFFFF;
+color: #FFFFFF;
+}
+#contentDiv {
+background-color: #FFFFFF;
+}
+#myContent {
+margin: 5px 10px;
+}
+#headerDiv a {
+float: right;
+margin: 10px 10px 5px 5px;
+}
+#headerDiv a:hover {
+color: #993333;
+}

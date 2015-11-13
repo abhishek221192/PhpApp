@@ -1,0 +1,6 @@
+<div id="footer" style="border-top:2px solid gray;padding:0" >
+    <div style="border-top:10px solid #800000;margin:0;padding:10px;">
+           <p style="text-align: center;">Developed by : Abhishek Singh and Archana Singh</p>
+		   <p style="text-align: center;"><span style="background-color:rgb(255, 255, 255); color:rgb(86, 83, 71); font-family:helvetica neue,helvetica,arial,sans-serif; font-size:12px">Copyright &copy; 2014 - All Rights Reserved - </span><a href="http://localhost/Test/PhpData/contactus.php#" style="outline: 0px; margin: 0px; padding: 0px 0px 1px; text-decoration: none !important; color: rgb(51, 51, 51) !important; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 16px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Domain Name</a></p>
+    </div>
+</div>

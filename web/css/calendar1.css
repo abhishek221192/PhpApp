@@ -1,0 +1,126 @@
+#CalendarControlIFrame { 
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	height: 250px;
+	width: 250px;
+	z-index: 899;
+	-moz-box-shadow: 0px 0px 25px #555;
+	-webkit-box-shadow: 0px 0px 25px #555;
+	box-shadow: 0px 0px 25px #555;
+}
+
+#CalendarControl {
+	position: absolute;
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+	display: none;
+	z-index: 900;
+	-moz-box-shadow: 0px 0px 25px #555;
+	-webkit-box-shadow: 0px 0px 25px #555;
+	box-shadow: 0px 0px 25px #555;
+}
+
+#CalendarControl table {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 80%;
+	border-left: 1px solid #c72429;
+	border-right: 1px solid #c72429;
+}
+
+#CalendarControl th {
+	font-weight: normal;
+	padding: 3px;
+	text-align: center;
+}
+
+#CalendarControl th a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#CalendarControl td {
+	text-align: center;
+	padding: 3px;
+}
+
+#CalendarControl .header {
+	/* background-color: #336; */
+	background-color: #c72429;
+}
+
+#CalendarControl .greyedout {
+	border: 1px solid #FFFFFF;
+	display: block;
+	text-decoration: none;
+	width: 2em;
+	color: #ddd;
+	background-color: #555;
+}
+
+#CalendarControl .weekday {
+	background-color: #f1f1f1;
+	color: #000;
+}
+
+#CalendarControl .weekend {
+	background-color: #ecc7b1;
+	color: #000;
+}
+
+#CalendarControl .current {
+	border: 1px solid #339;
+	background-color: #c72429;
+	color: #FFF;
+}
+
+#CalendarControl .weekday,
+#CalendarControl .weekend,
+#CalendarControl .current {
+	display: block;
+	text-decoration: none;
+	border: 1px solid #FFF;
+	width: 2em;
+}
+
+#CalendarControl .weekday:hover,
+#CalendarControl .weekend:hover,
+#CalendarControl .current:hover {
+	color: #FFF;
+	background-color: #c72429;
+	border: 1px solid #999;
+}
+
+#CalendarControl .previous {
+	text-align: left;
+}
+
+#CalendarControl .next {
+	text-align: right;
+}
+
+#CalendarControl .previous,
+#CalendarControl .next {
+	padding: 1px 3px 1px 3px;
+	font-size: 1.4em;
+}
+
+#CalendarControl .previous a,
+#CalendarControl .next a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#CalendarControl .title {
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#CalendarControl .empty {
+	background-color: #f1f1f1;
+}

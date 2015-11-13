@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <name>PhpTest</name>
+    <language>Php</language>
+    <type>Web</type>
+    <mode>
+        <type>private</type>
+    </mode>
+</project>
